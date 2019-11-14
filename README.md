@@ -46,3 +46,4 @@ After all, this must works like this:
 
 [![](https://i.ibb.co/Ctx8n2v/comparison.png)](https://i.ibb.co/Ctx8n2v/comparison.png)
 
+See the **live demo** on https://chelvis.github.io/image-comparison/.

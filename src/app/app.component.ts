@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public images = [
-    '/assets/image/image1.jpg',
-    '/assets/image/image2.jpg'
+    'https://chelvis.github.io/image-comparison/assets/image/image1.jpg',
+    'https://chelvis.github.io/image-comparison/assets/image/image2.jpg'
   ]
 }
