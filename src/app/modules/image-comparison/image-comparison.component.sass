@@ -1,0 +1,43 @@
+$sliderSize: 30px
+    
+.comparison
+    &__wrapper
+        background: #dedede
+        position: relative
+        text-align: center
+        line-height: 0
+    &__stage
+        display: inline-block
+        position: relative
+    &__slider
+        background: #f2f2f2
+        border-radius: 50%
+        cursor: ew-resize
+        height: $sliderSize
+        margin: -#{$sliderSize/2} 0 0 -#{$sliderSize/2}
+        opacity: .7
+        position: absolute
+        top: 50%
+        width: $sliderSize
+        z-index: 2
+    &__container
+        height: auto
+        max-width: 100%
+        overflow: hidden
+        width: auto
+        &.fixed-image img
+            height: auto
+            max-width: 100%
+        &.slide-image
+            border-right: 2px solid rgba(black, .5)
+            height: 100%
+            left: 0
+            position: absolute
+            top: 0
+            z-index: 1
+            img
+                height: 100%
+                width: auto
+    &__image
+        display: block
+        vertical-align: middle

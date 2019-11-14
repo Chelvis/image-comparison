@@ -1,6 +1,8 @@
-# Angular 2+ Image Comparison
+[TOCM]
 
-Just a beauty plug and play image comparator module for Angular 2+.
+# Angular 2+ Responsive Image Comparison
+
+Just a beauty and responsive plug and play image comparator module for Angular 2+.
 
 You can use it to compare two different images, like **before** and **after** models.
 
@@ -21,8 +23,8 @@ Import the Comparison Module into the module that declares the component where t
 Now, in your component, define a property with the URLs of the images to be compared into a list. It must have two values, obviously. See:
 
 	 public images: string[] = [
-		 './assets/image/image1.jpg',
-		 './assets/image/image2.jpg',
+		 '/assets/image/image1.jpg',
+		 '/assets/image/image2.jpg',
 	 ]
 
 Note: The images must to have **exactly the same dimensions** (width and height) to works fine, dude.
@@ -33,6 +35,16 @@ Then insert the `as-image-comparison` element in the HTML of your component, jus
 
 Note: Is important to put the condition `*ngIf='images'` to avoid errors if the images have undefined values.
 
-That is all. This must works like this:
+## Options
+
+| Option  |  Type  |  Description  |
+| ------------------- | ------------------- | ------------------- |
+|  images |  string[] |  Array containing two items, each one as the URL of an image. |
+|  maxHeight (optional) |  number \| string |  Defines a max height for the comparator stage. If number, it\'s calculated in pixels. If string, you can use `px` or `vh` unities.  |
+
+## Demo
+
+After all, this must works like this:
 
 [![](https://i.ibb.co/Ctx8n2v/comparison.png)](https://i.ibb.co/Ctx8n2v/comparison.png)
+
