@@ -1,5 +1,3 @@
-[TOCM]
-
 # Angular 2+ Image Comparison
 
 Just a beauty plug and play image comparator module for Angular 2+.
