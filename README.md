@@ -6,7 +6,7 @@ You can use it to compare two different images, like **before** and **after** mo
 
 ## Installing
 
-Just download or clone this repository and save the module files into (in the **modules** folder, if you're following [Angular Folder Structure](https://medium.com/@motcowley/angular-folder-structure-d1809be95542 "Angular Folder Structure") patterns).
+Just download or clone this repository and save the `src/app/modules/image-comparison` folder into your angular project (in your **modules** folder, if you're following [Angular Folder Structure](https://medium.com/@motcowley/angular-folder-structure-d1809be95542 "Angular Folder Structure") patterns).
 
 Import the Comparison Module into the module that declares the component where the Image Comparison will be applied.
 
