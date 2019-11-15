@@ -1,4 +1,4 @@
-# Angular 2+ Responsive Image Comparison
+# Angular 2+ Responsive Image Comparison Slider
 
 Just a beauty and responsive plug and play image comparator module for Angular 2+.
 
